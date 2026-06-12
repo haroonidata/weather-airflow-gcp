@@ -18,10 +18,6 @@ with DAG(
         python_callable=run_pipeline,
     )
 
-from airflow import DAG
-from airflow.operators.python import PythonOperator
-from datetime import datetime
-import sys
 
 sys.path.append("/opt/airflow/src")
 
